@@ -1,5 +1,5 @@
-const FruitList = artifacts.require("Fruits.sol");
+const Adoption = artifacts.require("Adoption.sol");
 
 module.exports = function (deployer) {
-  deployer.deploy(FruitList);
+  deployer.deploy(Adoption);
 };
